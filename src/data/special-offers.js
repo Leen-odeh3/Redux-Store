@@ -2,8 +2,8 @@ export const specialOffers = [
   {
       id: 100,
       title: "بیونر دی جی سماعه رأس",
-      firstImage:"/images/products/special-offers/s1.jpg",
-      secondImage:"/images/products/special-offers/s2.jpg",
+      firstImage:"/assets/products/special-offers/s1.jpg",
+      secondImage:"/assets/products/special-offers/s2.jpg",
       images: [
           "/assets/products/special-offers/s1.jpg",
           "/assets/products/special-offers/s2.jpg",

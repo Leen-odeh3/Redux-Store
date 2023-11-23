@@ -1,15 +1,22 @@
+import { useState } from "react";
 import Rating from "../rating/Rating";
 import {Link} from "react-router-dom";
 
-const Offer = () => {
+// eslint-disable-next-line react/prop-types
+const Offer = ({ offer }) => {
+  // eslint-disable-next-line react/prop-types
+  const { firstImage, secondImage, title, price, rating, discount,reviews, id } = offer;
 
+  const [imageSrc, setImageSrc] = useState(firstImage);
 
-
+  const calculatedDiscount = price - (discount * price) / 100;
 
   return (
     <div className="offer">
       <div className="offer-image-wrapper">
         <img
+          onMouseEnter={() => setImageSrc(secondImage)}
+          onMouseLeave={() => setImageSrc(firstImage)}
           src={imageSrc}
           alt={title}
           className="offer-image"
