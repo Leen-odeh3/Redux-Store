@@ -7,10 +7,10 @@ import HeaderBanner from "../../components/header-banner/HeaderBanner";
 import { useEffect } from "react";
 import { fetchProducts } from "../../redux/apiCalls/productApiCall";
 import { useSelector, useDispatch } from "react-redux";
-
+import {products} from '../../data/products'
 const Home = () => {
   const dispatch = useDispatch();
-  const { products } = useSelector((state) => state.product);
+  const { product } = useSelector((state) => state.product);
 
   useEffect(() => {
     dispatch(fetchProducts());
