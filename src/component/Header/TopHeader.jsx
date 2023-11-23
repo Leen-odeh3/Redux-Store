@@ -2,7 +2,7 @@
 
 const TopHeader = () => {
   return (
-    <div className="flex justify-between items-stretch p-2 bg-gray-600		">
+    <div className="flex justify-between items-center	 px-6 h-10		 bg-gray-600		">
 
 
       <div className="text-white	">
