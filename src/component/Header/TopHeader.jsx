@@ -1,16 +1,20 @@
-const TopHeader = () => {
+import "./Header.css";
+
+// eslint-disable-next-line react/prop-types
+const TopHeader = ({settoggle}) => {
   return (
-    <div className="flex justify-between items-center	 px-6 h-10 bg-slate-600">
-      <div className="text-white	">
-        <i className="bi bi-basket  text-2xl	"></i>
-        <b className="p-3 text-2xl	cursor-pointer		">نون</b>
+    <div className="top-header">
+      <div className="top-header-menu">
+        <i className="bi bi-list" onClick={() => settoggle(true)}></i>
       </div>
-
-      <div className=" text-yellow-400	font-semibold	">أهلا وسهلا بكم</div>
-
-      <div className="text-white	">
-        <b>123-456-789</b>
-        <i className="bi bi-telephone text-xl	 p-1"></i>
+      <div className="top-header-logo">
+        <i className="bi bi-basket2"></i>
+        نون
+      </div>
+      <div className="top-header-text">اهلا و سهلا بكم</div>
+      <div className="top-header-phone">
+        123-456-789
+        <i className="bi bi-telephone"></i>
       </div>
     </div>
   );

@@ -1,21 +1,15 @@
 import { Link } from "react-router-dom";
-
+import './Header.css'
 const MiddleHeader = () => {
   return (
-    <div className="flex justify-between items-center px-6 h-2/5 bg-slate-700">
-      <div className="h-11 w-3/6 rounded-r-2xl relative ">
-        <input
-          type="search"
-          placeholder="ماذا ترید؟"
-          className="w-full h-full pr-4"
-        />
-        <button className="text-white absolute bg-green-600 w-14 rounded-l-md h-full">
-          ابحث
-        </button>
+    <div className="middle-header">
+      <div className="middle-header-search-box">
+        <input type="search" placeholder="ماذا ترید؟" />
+        <button className="search-box-btn">ابحث</button>
       </div>
-      <Link to="/cart" className="text-white">
+      <Link to="/cart" className="middle-header-shopping-cart">
         سله التسوق
-        <i className="bi bi-cart3 text-xl p-1"></i>
+        <i className="bi bi-cart3"></i>
       </Link>
     </div>
   );
