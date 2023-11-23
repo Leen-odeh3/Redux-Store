@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import './Header.css'
 
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({toggle,settoggle}) => {
   return (
     <nav  className="navbar" style={{ right: toggle && "0" }}>

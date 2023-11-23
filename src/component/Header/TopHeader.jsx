@@ -1,5 +1,6 @@
 import "./Header.css";
 
+// eslint-disable-next-line react/prop-types
 const TopHeader = ({settoggle}) => {
   return (
     <div className="top-header">
