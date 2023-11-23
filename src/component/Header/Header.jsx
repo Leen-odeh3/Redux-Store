@@ -1,9 +1,11 @@
-import TopHeader from "./TopHeader"
+import MiddleHeader from './MiddleHeader'
+import TopHeader from './TopHeader'
 
 const Header = () => {
   return (
-    <div>
+    <div className=' h-60	' >
       <TopHeader/>
+      <MiddleHeader/>
     </div>
   )
 }

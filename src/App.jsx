@@ -1,9 +1,8 @@
-import Header from "./component/Header/Header"
-
+import Routing from './Routing/index.jsx'
 function App() {
   return (
     <>
-    <Header/>
+<Routing/>
     </>
   )
 }
