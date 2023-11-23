@@ -1,1 +1,1 @@
-# React + Vite
+# Redux-Project
