@@ -1,8 +1,9 @@
+import Header from "./component/Header/Header"
 
 function App() {
   return (
     <>
-    ليييييييين
+    <Header/>
     </>
   )
 }
