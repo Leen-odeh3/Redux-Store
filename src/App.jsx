@@ -1,9 +1,9 @@
-import Header from "./component/Header/Header"
+import Routing from './Routing/index'
 
 function App() {
   return (
     <>
-    <Header/>
+  <Routing/>
     </>
   )
 }
