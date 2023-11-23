@@ -1,10 +1,10 @@
 import "./Header.css";
 
-const TopHeader = () => {
+const TopHeader = ({settoggle}) => {
   return (
     <div className="top-header">
       <div className="top-header-menu">
-        <i className="bi bi-list"></i>
+        <i className="bi bi-list" onClick={() => settoggle(true)}></i>
       </div>
       <div className="top-header-logo">
         <i className="bi bi-basket2"></i>

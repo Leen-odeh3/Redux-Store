@@ -2,13 +2,13 @@ import { Link } from "react-router-dom"
 import './Header.css'
 
 
-const Navbar = () => {
+const Navbar = ({toggle,settoggle}) => {
   return (
-    <nav  className="navbar">
+    <nav  className="navbar" style={{ right: toggle && "0" }}>
       <div className="navbar-close-icon">
-        <i className="bi bi-x-lg"></i>
+        <i className="bi bi-x-lg" onClick={()=> settoggle(!toggle)} ></i>
       </div>
-      <ul className="navbar-links">
+      <ul className="navbar-links" >
         <Link to="/"  className="navbar-link">
           الصفحه الرئیسیه
         </Link>

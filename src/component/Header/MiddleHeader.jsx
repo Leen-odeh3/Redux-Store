@@ -10,7 +10,6 @@ const MiddleHeader = () => {
       <Link to="/cart" className="middle-header-shopping-cart">
         سله التسوق
         <i className="bi bi-cart3"></i>
-      
       </Link>
     </div>
   );

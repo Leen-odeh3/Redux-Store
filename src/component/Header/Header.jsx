@@ -1,13 +1,15 @@
+import { useState } from 'react'
 import MiddleHeader from './MiddleHeader'
 import Navbar from './Navbar'
 import TopHeader from './TopHeader'
 
 const Header = () => {
+const [toggle,settoggle]=useState(false);
   return (
-    <div className='h-60 w-full	' >
-      <TopHeader/>
+    <div  >
+      <TopHeader settoggle={settoggle}/>
       <MiddleHeader/>
-      <Navbar/>
+      <Navbar toggle={toggle} settoggle={settoggle}/>
     </div>
   )
 }
