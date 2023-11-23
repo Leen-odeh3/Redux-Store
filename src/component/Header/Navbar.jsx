@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="text-white w-3/6">
         {navs.map((e) => {
           return (
-            <NavLink key={e.id} className="p-3" to={`/${e.split(" ")[0]}`}>
+            <NavLink key={e.id} className="p-3 hover:text-yellow-400 " to={`/${e.split(" ")[0]}`}>
               {e}{" "}
             </NavLink>
           );
