@@ -4,7 +4,7 @@ import TopHeader from './TopHeader'
 
 const Header = () => {
   return (
-    <div className=' h-60	' >
+    <div className='h-60 w-full	' >
       <TopHeader/>
       <MiddleHeader/>
       <Navbar/>
