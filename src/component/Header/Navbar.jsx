@@ -9,11 +9,11 @@ const Navbar = () => {
     "نسائيه",
   ];
   return (
-    <div className="flex  justify-between items-center px-6 py-3	  bg-slate-700">
-      <div className="text-white">
+    <div className="flex  justify-between items-center px-6 py-3	 bg-slate-700">
+      <div className="text-white w-3/6">
         {navs.map((e) => {
           return (
-            <NavLink key={e.id} className="p-3	" to={`/${e.split(" ")[0]}`}>
+            <NavLink key={e.id} className="p-3" to={`/${e.split(" ")[0]}`}>
               {e}{" "}
             </NavLink>
           );
