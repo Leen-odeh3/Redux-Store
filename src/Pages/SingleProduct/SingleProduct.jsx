@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Rating from "../../components/rating/Rating";
+import Rating from "../../component/Rating";
 import "./single-product.css";
 import ProductDescription from "./ProductDescription";
 import { useSelector, useDispatch } from "react-redux";
