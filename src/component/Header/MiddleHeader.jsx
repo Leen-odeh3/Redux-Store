@@ -13,7 +13,7 @@ const MiddleHeader = () => {
           ابحث
         </button>
       </div>
-      <Link to="/cart" className="text-white">
+      <Link to="/cart" className="text-white ">
         سله التسوق
         <i className="bi bi-cart3 text-xl p-1"></i>
       </Link>
