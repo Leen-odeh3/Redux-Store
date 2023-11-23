@@ -2,22 +2,22 @@
 
 const TopHeader = () => {
   return (
-    <div className="flex justify-between items-stretch p-3 bg-gray-600	">
+    <div className="flex justify-between items-stretch p-2 bg-gray-600		">
 
 
-      <div >
-        <i className="bi bi-basket"></i>
-        نون
+      <div className="text-white	">
+        <i className="bi bi-basket  text-2xl	"></i>
+        <b className="p-3 text-2xl	cursor-pointer		">نون</b>
       </div>
 
 
-      <div>أهلا وسهلا بكم</div>
+      <div className=" text-yellow-400	font-semibold	">أهلا وسهلا بكم</div>
 
 
 
-      <div>
+      <div className="text-white	">
         <b>123-456-789</b>
-        <i className="bi bi-telephone"></i>
+        <i className="bi bi-telephone text-xl	 p-1"></i>
         
       </div>
 
