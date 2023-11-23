@@ -60,7 +60,7 @@ const Footer = () => {
          </div>
       </div>
       <div className="footer-bottom">
-      <i className="bi bi-c-circle"></i> 2022
+      <i className="bi bi-c-circle"></i> 2024
        کل الحقوق محفوظه
       </div>
     </footer>
